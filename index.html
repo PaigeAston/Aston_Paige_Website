@@ -1,11 +1,87 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website: HTML_Desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,40..300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/suo7osg.css">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <!--Heading-->
+        <header class="hero-image">
+                <a href="#" class="home-btn">Kasama</a>
+            <nav class="nav">
+                <a href="#">Menu</a>
+                <a href="#">Order</a>
+                <a href="#">Reservations</a>
+                <a href="#">Location</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
+
+        <!--Highlighted Dishes-->
+        <div class="text-center highlighted" id="highlight">
+            <h2>Highlighted Dishes</h2>
+        </div>
+        <div class="highlighted-dishes text-center">
+            <div>
+                <img src="images/highlighted dishes/beef-caldereta.jpg" alt="beef caldereta" height="329">
+                <h3>Beef Caldereta</h3>
+                <p>A delicious stew, having beef as the main piece. Topped with potatoes, olives, and bell peppers, swimming in a rich tomato sauce. </p>
+            </div>
+            <div>
+                <img src="images/highlighted dishes/grilled-shrimp.jpg" alt="grilled shrimp" height="329">
+                <h3>Grilled Shrimp</h3>
+                <p>Skewered shrimp cooked on a grill to perfection. Also paired with veggies such as peppers, onions, asparagus, and more. </p>
+            </div>
+        </div>
+        <div class="highlighted-dishes text-center">
+            <div>
+                <img src="images/highlighted dishes/kare-kare.jpg" alt="kare kare" height="329">
+                <h3>Kare-Kare</h3>
+                <p>This stew curates a thick like peanut sauce, filled with ingredients such as oxtail, beef, or pork. Veggies include eggplant, cabbage, daikon, okra, and more. </p>
+            </div>
+            <div>
+                <img src="images/highlighted dishes/beef-peres.jpg" alt="beef peres" height="329">
+                <h3>Beef Peres</h3>
+                <p>A hearty stew filled with beef, cushioned by garlic fried rice. Finally, topped with fresh cut green onions.</p>
+            </div>
+        </div>
+
+        <!--Customer Favorites-->
+        <div>
+            <img src="images/customer favorite/customer-favorite.jpg" alt="customer favorite" height="620">
+        </div>
+
+        <!--Reserve Seating-->
+        <div class="reserved-seating flex-container">
+            <div class="col-6 seating" id="seating">
+                <img src="images/reserve seating/reserve-seating.jpg" alt="reserved seating" height="563">
+            </div>
+            <div class="col-six">
+                <h2>Reserve Seating or Online Order Now!</h2>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="footer footer-text">
+            <div>
+                <h1>Kasama</h1>
+            </div>
+            <div>
+                <h4>1001 N. Winchester Ave. Chicago, Illinois 60622</h4>
+                <h4>All Rights Reserved</h4>
+            </div>
+        </div>
+    </div>    
+</body>
 </html>
